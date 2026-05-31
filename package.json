@@ -1,0 +1,38 @@
+{
+  "name": "aicf-open",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A browser-based AI chat interface for SiliconFlow-compatible models.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "github-markdown-css": "^5.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.8"
+  },
+  "keywords": [
+    "react",
+    "ai",
+    "chat",
+    "interface"
+  ],
+  "author": "louisfy",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
